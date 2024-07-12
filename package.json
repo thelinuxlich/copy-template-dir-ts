@@ -2,6 +2,7 @@
   "name": "copy-template-dir-ts",
   "version": "1.0.0",
   "description": "High throughput template dir writes",
+  "author": "Alisson Cavalcante Agiani <thelinuxlich@gmail.com>",
   "type": "module",
   "scripts": {
     "build": "npx pkgroll",
