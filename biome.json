@@ -1,0 +1,62 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": true
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single",
+			"semicolons": "asNeeded",
+			"bracketSameLine": true,
+			"bracketSpacing": true
+		}
+	},
+	"linter": {
+		"enabled": true,
+		"ignore": [
+			"codegen"
+		],
+		"rules": {
+			"recommended": true,
+			"complexity": {
+				"noExcessiveCognitiveComplexity": "off",
+				"useSimplifiedLogicExpression": "error",
+				"noUselessTernary": "error"
+			},
+			"correctness": {
+				"noFlatMapIdentity": "error"
+			},
+			"performance": {
+				"noAccumulatingSpread": "off",
+				"noBarrelFile": "error"
+			},
+			"style": {
+				"noNonNullAssertion": "off",
+				"useCollapsedElseIf": "error",
+				"useSingleCaseStatement": "error",
+				"useShorthandAssign": "error",
+				"noNegationElse": "error",
+				"useForOf": "error",
+				"useShorthandFunctionType": "error"
+			},
+			"suspicious": {
+				"useAwait": "error",
+				"noExportsInTest": "error"
+			},
+			"nursery": {
+				"noDuplicateJsonKeys": "error",
+				"noDuplicateElseIf": "error",
+				"noEvolvingTypes": "error",
+				"useDateNow": "error",
+				"useThrowNewError": "error",
+				"useErrorMessage": "error",
+				"useTopLevelRegex": "error",
+				"useImportExtensions": "error"
+			}
+		}
+	}
+}

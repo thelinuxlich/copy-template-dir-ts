@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"target": "ES2022",
+		"module": "preserve",
+		"lib": ["ESNext"],
+		"verbatimModuleSyntax": true,
+		"esModuleInterop": true,
+		"inlineSourceMap": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowImportingTsExtensions": false,
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"skipLibCheck": true,
+		"isolatedModules": true,
+		"noUnusedLocals": true,
+		"resolveJsonModule": true,
+		"noFallthroughCasesInSwitch": true
+	},
+	"include": ["src/index.ts", "test/index.ts"]
+}
