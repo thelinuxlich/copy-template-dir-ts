@@ -1,6 +1,6 @@
 # copy-template-dir-ts
 
-This is a rewrite of [copy-template-dir](https://github.com/yoshuawuyts/copy-template-dir) with TypeScript and ESM support.
+This is a rewrite of [copy-template-dir](https://github.com/yoshuawuyts/copy-template-dir) with no dependencies, TypeScript and ESM support.
 
 High throughput template dir writes. Supports variable injection using the
 mustache `{{ }}` syntax.
